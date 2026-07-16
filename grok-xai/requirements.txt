@@ -1,0 +1,6 @@
+# Runtime dependencies
+openai>=1.30.0        # Official OpenAI SDK; used against xAI's compatible API
+python-dotenv>=1.0.0  # Loads XAI_API_KEY from a local .env file
+
+# Development / testing
+pytest>=8.0.0         # Test runner for test_grok.py
